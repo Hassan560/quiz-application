@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Html Quiz</h1>
+
+    <div class="main">
+      <h4>1. What does HTML stand for?</h4>
+      <input type="radio" name="html" id="1" />
+      <label for="1" class="radio">Hyper Text Markup Language</label>
+      <input type="radio" name="html" id="2" />
+      <label for="2" class="radio">Hot mail</label>
+      <input type="radio" name="html" id="3" />
+      <label for="3" class="radio"> How to Make Lasagna</label>
+    </div>
+    <div class="main">
+      <h4>2. How many tags are in a regular element?</h4>
+      <input type="radio" name="tags" id="4" />
+      <label for="4" class="radio">2</label>
+      <input type="radio" name="tags" id="5" />
+      <label for="5" class="radio">1</label>
+      <input type="radio" name="tags" id="6" />
+      <label for="6" class="radio">3</label>
+    </div>
+    <div class="main">
+      <h4>
+        3. What is the difference between an opening tag and a closing tag?
+      </h4>
+      <input type="radio" name="opening" id="7" />
+      <label for="7" class="radio">Opening tag has a / in front</label>
+      <input type="radio" name="opening" id="8" />
+      <label for="8" class="radio">Closing tag has a / in front</label>
+      <input type="radio" name="opening" id="9" />
+      <label for="9" class="radio">There is no difference </label>
+    </div>
+    <div class="main">
+      <h4>4. < br / > What type of tag is this?</h4>
+      <input type="radio" name="tag" id="10" />
+      <label for="10" class="radio"> An opening tag</label>
+      <input type="radio" name="tag" id="11" />
+      <label for="11" class="radio">A broken one</label>
+      <input type="radio" name="tag" id="12" />
+      <label for="12" class="radio">Break tag</label>
+    </div>
+    <div class="main">
+      <h4>5. < body > Is this an opening tag or a closing tag?</h4>
+      <input type="radio" name="closing" id="13" />
+      <label for="13" class="radio">Opening </label>
+      <input type="radio" name="closing" id="14" />
+      <label for="14" class="radio">Closing</label>
+    </div>
+    <div class="main">
+      <h4>6. < / body > Is this an opening tag or a closing tag?</h4>
+      <input type="radio" name="opening" id="15" />
+      <label for="15" class="radio">Opening </label>
+      <input type="radio" name="opening" id="16" />
+      <label for="16" class="radio">Closing</label>
+    </div>
+    <div class="main">
+      <h4>7. Where is the meta tag only found?</h4>
+      <input type="radio" name="metatag" id="17" />
+      <label for="17" class="radio">The home page</label>
+      <input type="radio" name="metatag" id="18" />
+      <label for="18" class="radio">The last page</label>
+      <input type="radio" name="metatag" id="19" />
+      <label for="19" class="radio">The second page</label>
+    </div>
+    <div class="main">
+      <h4>8. What should values always be enclosed in?</h4>
+      <input type="radio" name="enclosed" id="20" />
+      <label for="20" class="radio">Commas</label>
+      <input type="radio" name="enclosed" id="21" />
+      <label for="21" class="radio">Quotation marks</label>
+      <input type="radio" name="enclosed" id="22" />
+      <label for="22" class="radio">Parenthesis</label>
+    </div>
+    <div class="main">
+      <h4>9. What is an element that does not have a closing tag called?</h4>
+      <input type="radio" name="element" id="23" />
+      <label for="23" class="radio">Empty element</label>
+      <input type="radio" name="element" id="24" />
+      <label for="24" class="radio">Closed element</label>
+      <input type="radio" name="element" id="25" />
+      <label for="25" class="radio">Tag</label>
+    </div>
+    <div class="main">
+      <h4>10. Which of the following is an example of an empty element?</h4>
+      <input type="radio" name="empty" id="26" />
+      <label for="26" class="radio">< img > < / img ></label>
+      <input type="radio" name="empty" id="27" />
+      <label for="27" class="radio">< img / ></label>
+      <input type="radio" name="empty" id="28" />
+      <label for="28" class="radio">< / img></label>
+    </div>
+    <div class="submit">
+      <button onclick="submit()" id="check" class="btn">Submit</button>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
